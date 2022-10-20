@@ -1,0 +1,25 @@
+{
+  "name": "github-issues-viewer",
+  "version": "1.0.0",
+  "description": "Extract subscribed issues from GitHub repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdupoiron/github-issues-viewer.git"
+  },
+  "author": "@tdupoiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdupoiron/github-issues-viewer/issues"
+  },
+  "homepage": "https://github.com/tdupoiron/github-issues-viewer#readme",
+  "dependencies": {
+    "@octokit/graphql": "^5.0.4",
+    "@octokit/rest": "^19.0.5",
+    "axios": "^1.1.3",
+    "minimist": "^1.2.7"
+  }
+}
